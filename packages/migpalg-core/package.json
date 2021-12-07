@@ -1,0 +1,12 @@
+{
+  "name": "@migpalg/core",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "types": "dist/types/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "pnpm build:modern && pnpm build:types",
+    "build:modern": "echo \"not implemented yet\".",
+    "build:types": "tsc -b tsconfig.build.json"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "@migpalg/pack",
+  "version": "0.1.0",
+  "main": "build/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "pnpm build:modern && pnpm build:types",
+    "build:modern": "echo \"not implemented yet\".",
+    "build:types": "tsc -b ./tsconfig.build.json"
+  }
+}
