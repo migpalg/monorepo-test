@@ -1,0 +1,1 @@
+# `@migpalg/core`
