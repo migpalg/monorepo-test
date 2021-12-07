@@ -2,7 +2,15 @@
 
 This is just a testing repository to test some methodologies to manage with monorepos
 
-## Building
+## 🚀 Getting started
+
+To install project dependencies just run the following command:
+
+```bash
+pnpm install
+```
+
+## 🛠 Building
 
 Run the following command to create a `dist` for each package
 
