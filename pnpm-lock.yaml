@@ -13,6 +13,7 @@ specifiers:
   jest: ^27.4.3
   lerna: ^4.0.0
   prettier: 2.5.1
+  rollup: ^2.60.2
   typescript: ^4.5.2
 
 devDependencies:
@@ -28,6 +29,7 @@ devDependencies:
   jest: 27.4.3
   lerna: 4.0.0
   prettier: 2.5.1
+  rollup: 2.60.2
   typescript: 4.5.2
 
 packages:
@@ -6626,6 +6628,14 @@ packages:
     hasBin: true
     dependencies:
       glob: 7.2.0
+    dev: true
+
+  /rollup/2.60.2:
+    resolution: {integrity: sha512-1Bgjpq61sPjgoZzuiDSGvbI1tD91giZABgjCQBKM5aYLnzjq52GoDuWVwT/cm/MCxCMPU8gqQvkj8doQ5C8Oqw==}
+    engines: {node: '>=10.0.0'}
+    hasBin: true
+    optionalDependencies:
+      fsevents: 2.3.2
     dev: true
 
   /run-async/2.4.1:
