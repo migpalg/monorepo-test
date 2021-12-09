@@ -6,7 +6,8 @@
   "scripts": {
     "test": "lerna run test",
     "build": "lerna run build",
-    "postinstall": "lerna bootstrap"
+    "postinstall": "lerna bootstrap",
+    "update:paths": "node scripts/admin/admin update-paths"
   },
   "keywords": [
     "monorepo",
@@ -19,6 +20,7 @@
     "@babel/preset-env": "^7.16.4",
     "@types/jest": "^27.0.3",
     "@types/node": "^16.11.12",
+    "@types/yargs": "^17.0.7",
     "@typescript-eslint/eslint-plugin": "^5.6.0",
     "@typescript-eslint/parser": "^5.6.0",
     "eslint": "^8.4.1",
@@ -28,7 +30,9 @@
     "lerna": "^4.0.0",
     "prettier": "2.5.1",
     "rollup": "^2.60.2",
-    "typescript": "^4.5.2"
+    "typescript": "^4.5.2",
+    "winston": "^3.3.3",
+    "yargs": "^17.3.0"
   },
   "workspaces": [
     "packages/*"

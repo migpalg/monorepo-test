@@ -12,7 +12,12 @@
     "allowSyntheticDefaultImports": true,
     "noErrorTruncation": false,
     "allowJs": true,
-    "paths": {}
+    "paths": {
+      "@migpalg/core": ["packages/migpalg-core/lib"],
+      "@migpalg/core/*": ["packages/migpalg-core/lib/*"],
+      "@migpalg/pack": ["packages/migpalg-pack/lib"],
+      "@migpalg/pack/*": ["packages/migpalg-pack/lib/*"]
+    }
   },
   "exclude": ["**/.*/", "**/build", "**/node_modules"]
 }
