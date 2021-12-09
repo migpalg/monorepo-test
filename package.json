@@ -4,16 +4,17 @@
   "description": "This is an example for a monorepo",
   "private": true,
   "scripts": {
-    "test": "lerna run test",
+    "admin": "node scripts/admin/admin",
     "build": "lerna run build",
     "postinstall": "lerna bootstrap",
-    "update:paths": "node scripts/admin/admin update-paths"
+    "test": "lerna run test",
+    "update:paths": "yarn admin update-paths"
   },
   "keywords": [
     "monorepo",
     "typescript"
   ],
-  "author": "",
+  "author": "Miguel Palacio <migpalg@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.16.0",

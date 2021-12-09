@@ -7,7 +7,7 @@ This is just a testing repository to test some methodologies to manage with mono
 To install project dependencies just run the following command:
 
 ```bash
-pnpm install
+yarn install
 ```
 
 ## 🛠 Building
@@ -15,5 +15,5 @@ pnpm install
 Run the following command to create a `dist` for each package
 
 ```bash
-pnpm build
+yarn build
 ```

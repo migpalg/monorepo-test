@@ -1,3 +1,12 @@
+/**
+ * update-paths.js – v0.1.0
+ *
+ * This script allows you to automatically update tsconfig paths based in the
+ * package name and path.
+ *
+ * TODO: Allow custom behavior on paths resolution
+ */
+
 // @packages
 const path = require("path");
 const fs = require("fs");
