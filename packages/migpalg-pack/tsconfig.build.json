@@ -7,6 +7,7 @@
     "composite": true,
     "noEmit": false,
     "emitDeclarationOnly": true,
+    "paths": {}
   },
   "include": ["lib/**/*.ts"],
   "exclude": ["lib/**/*.spec.ts*", "lib/**/*.test.ts*"]

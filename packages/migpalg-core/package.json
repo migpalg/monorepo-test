@@ -5,8 +5,10 @@
   "types": "dist/types/index.d.ts",
   "license": "MIT",
   "scripts": {
-    "build": "pnpm build:modern && pnpm build:types",
+    "build:clean": "rm -rf dist",
+    "build:commonjs": "echo \"not implemented yet\".",
     "build:modern": "echo \"not implemented yet\".",
-    "build:types": "tsc -b tsconfig.build.json"
+    "build:types": "tsc -b tsconfig.build.json",
+    "build": "yarn build:clean && yarn build:commonjs && yarn build:types"
   }
 }
